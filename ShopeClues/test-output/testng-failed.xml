@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="Script.ValidReachSecure">
+        <methods>
+          <include name="closeApp"/>
+          <include name="testReachSecure"/>
+          <include name="openApp"/>
+        </methods>
+      </class> <!-- Script.ValidReachSecure -->
+      <class name="Script.SportsShoe">
+        <methods>
+          <include name="closeApp"/>
+          <include name="openApp"/>
+          <include name="testSportsShoe"/>
+        </methods>
+      </class> <!-- Script.SportsShoe -->
+      <class name="Script.InvalidLocation">
+        <methods>
+          <include name="testInvalidLocation"/>
+          <include name="closeApp"/>
+          <include name="openApp"/>
+        </methods>
+      </class> <!-- Script.InvalidLocation -->
+      <class name="Script.ValidRefrenceMobile">
+        <methods>
+          <include name="BuyMemoryCard"/>
+          <include name="closeApp"/>
+          <include name="openApp"/>
+        </methods>
+      </class> <!-- Script.ValidRefrenceMobile -->
+      <class name="Script.ValidUnder999Buy">
+        <methods>
+          <include name="closeApp"/>
+          <include name="BuyMemoryCard"/>
+          <include name="openApp"/>
+        </methods>
+      </class> <!-- Script.ValidUnder999Buy -->
+      <class name="Script.InvalidMensJeansSelection">
+        <methods>
+          <include name="closeApp"/>
+          <include name="testMensJeansSelectionPage"/>
+          <include name="openApp"/>
+        </methods>
+      </class> <!-- Script.InvalidMensJeansSelection -->
+      <class name="Script.ValidSmartGadgetsBuy">
+        <methods>
+          <include name="testSamrtGadgetsBuy"/>
+        </methods>
+      </class> <!-- Script.ValidSmartGadgetsBuy -->
+      <class name="Script.ValidMemoryCardAddCart">
+        <methods>
+          <include name="closeApp"/>
+          <include name="openApp"/>
+          <include name="BuyMemoryCard"/>
+        </methods>
+      </class> <!-- Script.ValidMemoryCardAddCart -->
+      <class name="Script.WarrantyCheck">
+        <methods>
+          <include name="closeApp"/>
+          <include name="testWarranty"/>
+          <include name="openApp"/>
+        </methods>
+      </class> <!-- Script.WarrantyCheck -->
+      <class name="Script.ValidFeaturePhone">
+        <methods>
+          <include name="closeApp"/>
+          <include name="BuyFeaturePhone"/>
+          <include name="openApp"/>
+        </methods>
+      </class> <!-- Script.ValidFeaturePhone -->
+      <class name="Script.CheckNote4Review">
+        <methods>
+          <include name="closeApp"/>
+          <include name="testCheckNote4Reviews"/>
+          <include name="openApp"/>
+        </methods>
+      </class> <!-- Script.CheckNote4Review -->
+      <class name="Script.MyFeedback">
+        <methods>
+          <include name="closeApp"/>
+          <include name="openApp"/>
+          <include name="testFeedback"/>
+        </methods>
+      </class> <!-- Script.MyFeedback -->
+      <class name="Script.ValidMemoryCardBuy">
+        <methods>
+          <include name="closeApp"/>
+          <include name="BuyMemoryCard"/>
+          <include name="openApp"/>
+        </methods>
+      </class> <!-- Script.ValidMemoryCardBuy -->
+      <class name="Script.CheckDiscounts">
+        <methods>
+          <include name="testDiscount"/>
+          <include name="closeApp"/>
+          <include name="openApp"/>
+        </methods>
+      </class> <!-- Script.CheckDiscounts -->
+      <class name="Script.ElectronicsItem">
+        <methods>
+          <include name="closeApp"/>
+          <include name="openApp"/>
+          <include name="testElectronics"/>
+        </methods>
+      </class> <!-- Script.ElectronicsItem -->
+      <class name="Script.SearchBox">
+        <methods>
+          <include name="testSearchBox"/>
+          <include name="closeApp"/>
+          <include name="openApp"/>
+        </methods>
+      </class> <!-- Script.SearchBox -->
+      <class name="Script.SearchMobiles">
+        <methods>
+          <include name="testSearchMobiles"/>
+          <include name="closeApp"/>
+          <include name="openApp"/>
+        </methods>
+      </class> <!-- Script.SearchMobiles -->
+      <class name="Script.ValidJeansSelect">
+        <methods>
+          <include name="closeApp"/>
+          <include name="testJeansSelectionPage"/>
+          <include name="openApp"/>
+        </methods>
+      </class> <!-- Script.ValidJeansSelect -->
+      <class name="Script.ValidMobileBuy">
+        <methods>
+          <include name="closeApp"/>
+          <include name="BuyPhone"/>
+          <include name="openApp"/>
+        </methods>
+      </class> <!-- Script.ValidMobileBuy -->
+      <class name="Script.ValidTabletBuy">
+        <methods>
+          <include name="BuyMemoryCard"/>
+          <include name="closeApp"/>
+          <include name="openApp"/>
+        </methods>
+      </class> <!-- Script.ValidTabletBuy -->
+      <class name="Script.ValidMobileAddCart">
+        <methods>
+          <include name="closeApp"/>
+          <include name="testMobileAddCart"/>
+          <include name="openApp"/>
+        </methods>
+      </class> <!-- Script.ValidMobileAddCart -->
+      <class name="Script.ValidMobileAcc">
+        <methods>
+          <include name="closeApp"/>
+          <include name="mobileAccBuy"/>
+          <include name="openApp"/>
+        </methods>
+      </class> <!-- Script.ValidMobileAcc -->
+      <class name="Script.ValidReachSecureAddCart">
+        <methods>
+          <include name="testReachSecure"/>
+          <include name="closeApp"/>
+          <include name="openApp"/>
+        </methods>
+      </class> <!-- Script.ValidReachSecureAddCart -->
+      <class name="Script.ValidVRGearAddCart">
+        <methods>
+          <include name="closeApp"/>
+          <include name="openApp"/>
+          <include name="testVRGearPage"/>
+        </methods>
+      </class> <!-- Script.ValidVRGearAddCart -->
+      <class name="Script.ValidBrandSamsungAddCart">
+        <methods>
+          <include name="testBrandSamsung"/>
+        </methods>
+      </class> <!-- Script.ValidBrandSamsungAddCart -->
+      <class name="Script.ValidFeaturePhoneAddCart">
+        <methods>
+          <include name="closeApp"/>
+          <include name="openApp"/>
+          <include name="BuyFeaturePhone"/>
+        </methods>
+      </class> <!-- Script.ValidFeaturePhoneAddCart -->
+      <class name="Script.BuyJeans">
+        <methods>
+          <include name="closeApp"/>
+          <include name="openApp"/>
+          <include name="testBuyJeans"/>
+        </methods>
+      </class> <!-- Script.BuyJeans -->
+      <class name="Script.ValidBrandSamsung">
+        <methods>
+          <include name="closeApp"/>
+          <include name="openApp"/>
+          <include name="testBrandSamsung"/>
+        </methods>
+      </class> <!-- Script.ValidBrandSamsung -->
+      <class name="Script.ValidMobileAccAddCart">
+        <methods>
+          <include name="closeApp"/>
+          <include name="openApp"/>
+          <include name="testMobAcc"/>
+        </methods>
+      </class> <!-- Script.ValidMobileAccAddCart -->
+      <class name="Script.ValidSmartGadgetsAddCart">
+        <methods>
+          <include name="closeApp"/>
+          <include name="testSamrtGadgets"/>
+          <include name="openApp"/>
+        </methods>
+      </class> <!-- Script.ValidSmartGadgetsAddCart -->
+      <class name="Script.MobileFullSpecification">
+        <methods>
+          <include name="closeApp"/>
+          <include name="testMobileFullSpecification"/>
+          <include name="openApp"/>
+        </methods>
+      </class> <!-- Script.MobileFullSpecification -->
+      <class name="Script.ShareLocation">
+        <methods>
+          <include name="closeApp"/>
+          <include name="testShareLocation"/>
+          <include name="openApp"/>
+        </methods>
+      </class> <!-- Script.ShareLocation -->
+      <class name="Script.CallUs">
+        <methods>
+          <include name="closeApp"/>
+          <include name="testCallUs"/>
+          <include name="openApp"/>
+        </methods>
+      </class> <!-- Script.CallUs -->
+      <class name="Script.CheckOffers">
+        <methods>
+          <include name="testOffers"/>
+          <include name="closeApp"/>
+          <include name="openApp"/>
+        </methods>
+      </class> <!-- Script.CheckOffers -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

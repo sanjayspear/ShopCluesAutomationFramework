@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test name="Test">
+    <classes>
+      <class name="Script.ShareLocation"/>
+      <class name="Script.MobileFullSpecification"/>
+      <class name="Script.ValidBrandSamsungAddCart"/>
+      <class name="Script.CheckNote4Review"/>
+      <class name="Script.ValidFeaturePhone"/>
+      <class name="Script.CallUs"/>
+      <class name="Script.ValidVRGearAddCart"/>
+      <class name="Script.ValidSmartGadgetsBuy"/>
+      <class name="Script.MyFeedback"/>
+      <class name="Script.ValidFeaturePhoneAddCart"/>
+      <class name="Script.ValidUnder999Buy"/>
+      <class name="Script.SearchBox"/>
+      <class name="Script.ValidReachSecureAddCart"/>
+      <class name="Script.WarrantyCheck"/>
+      <class name="Script.ValidMobileBuy"/>
+      <class name="Script.ValidMemoryCardAddCart"/>
+      <class name="Script.SearchMobiles"/>
+      <class name="Script.ValidMobileAccAddCart"/>
+      <class name="Script.ValidBrandSamsung"/>
+      <class name="Script.ValidMobileAcc"/>
+      <class name="Script.ValidJeansSelect"/>
+      <class name="Script.CheckDiscounts"/>
+      <class name="Script.CheckOffers"/>
+      <class name="Script.SportsShoe"/>
+      <class name="Script.ValidRefrenceMobile"/>
+      <class name="Script.ValidMobileAddCart"/>
+      <class name="Script.ElectronicsItem"/>
+      <class name="Script.InvalidLocation"/>
+      <class name="Script.ValidReachSecure"/>
+      <class name="Script.ValidMemoryCardBuy"/>
+      <class name="Script.InvalidMensJeansSelection"/>
+      <class name="Script.ValidSmartGadgetsAddCart"/>
+      <class name="Script.ValidTabletBuy"/>
+      <class name="Script.BuyJeans"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

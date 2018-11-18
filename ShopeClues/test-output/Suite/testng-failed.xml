@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="Test(failed)">
+    <classes>
+      <class name="Script.TestShopclues_03">
+        <methods>
+          <include name="closeApp"/>
+          <include name="BuyMemoryCard"/>
+          <include name="openApp"/>
+        </methods>
+      </class> <!-- Script.TestShopclues_03 -->
+      <class name="Script.TestShopeclues_02">
+        <methods>
+          <include name="closeApp"/>
+          <include name="openApp"/>
+          <include name="BuyFeaturePhone"/>
+        </methods>
+      </class> <!-- Script.TestShopeclues_02 -->
+      <class name="Script.TestShopesclues_01">
+        <methods>
+          <include name="closeApp"/>
+          <include name="BuyPhone"/>
+          <include name="openApp"/>
+        </methods>
+      </class> <!-- Script.TestShopesclues_01 -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
